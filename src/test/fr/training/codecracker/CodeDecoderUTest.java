@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class CodeDecoderUTest {
-    CodeDecoder codeDecoder = new CodeDecoder();
+    CodeDecoder codeDecoder = new CodeDecoder("!)\"(£*%&><@abcdefghijklmno");
 
     @org.junit.Before
     public void setUp() {
